@@ -1,0 +1,28 @@
+export const weatherMock = {
+  coord: {lon: -34.8811, lat: -8.0539},
+  weather: [{id: 803, main: 'Clouds', description: 'nublado', icon: '04d'}],
+  base: 'stations',
+  main: {
+    temp: 300.17,
+    feels_like: 301.96,
+    temp_min: 300.17,
+    temp_max: 300.17,
+    pressure: 1014,
+    humidity: 69,
+  },
+  visibility: 10000,
+  wind: {speed: 4.63, deg: 130},
+  clouds: {all: 75},
+  dt: 1623332218,
+  sys: {
+    type: 1,
+    id: 8426,
+    country: 'BR',
+    sunrise: 1623313756,
+    sunset: 1623355738,
+  },
+  timezone: -10800,
+  id: 3390760,
+  name: 'Recife',
+  cod: 200,
+};
